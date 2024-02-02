@@ -10,7 +10,7 @@ import {
   MDBIcon
 }
 from 'mdb-react-ui-kit';
-import {backgroundImage} from 'src/assets/images/doctorBg.png'
+import backgroundImage from '/home/abid/Desktop/skaleUp_hackthon/src/assets/doctorBg.png'
 
 function Login() {
   return (
@@ -20,7 +20,7 @@ function Login() {
       <MDBRow className='d-flex justify-content-center align-items-center h-100'>
         <MDBCol col='12'>
 
-          <MDBCard className='bg-dark text-white my-5 mx-auto' style={{borderRadius: '1rem', maxWidth: '400px'}}>
+          <MDBCard className='bg-dark text-white my-5 mx-auto' style={{borderRadius: '1rem', maxWidth: '380px', maxHeight: '600px'}}>
             <MDBCardBody className='p-5 d-flex flex-column align-items-center mx-auto w-100'>
 
               <h2 className="fw-bold mb-2 text-uppercase">Login</h2>
